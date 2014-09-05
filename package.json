@@ -1,0 +1,18 @@
+{
+  "name": "WeatherApp",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "async": "0.x",
+    "consolidate": "0.x",
+    "dustjs-linkedin": "0.x",
+    "express": "~4.2.0",
+    "qs": "0.x",
+    "request": "0.x"
+  },
+  "devDependency": {
+    "grunt": "0.x"
+  }
+}

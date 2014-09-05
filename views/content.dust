@@ -1,0 +1,21 @@
+{?data}
+  <div id ="weather_info">
+    <div class="header">
+      <span class="city_name">City Name</span>
+      <span class="fahrenheit">&deg; F</span>
+      <span class="celcius">&deg; C</span>
+    </div>
+    {#data}
+      <div class ="city">
+          <span class="city_name">{city}</span>
+          <span class="fahrenheit">{temp_f}</span>
+          <span class="celcius">{temp_c}</span>
+      </div>
+    {/data}
+  </div> <!-- end of weather_info -->
+{:else}
+  {?error}
+  {:else}
+    <span class="text">No Weather Data available</span>
+  {/error}
+{/data}

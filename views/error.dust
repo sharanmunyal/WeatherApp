@@ -1,0 +1,4 @@
+{?error}
+  <span class="text">Error Code: {error.status}</span>
+{/error}
+<span class="text">{message}</span>

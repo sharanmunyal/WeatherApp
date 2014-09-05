@@ -1,0 +1,26 @@
+{
+  "api": {
+    "host": "http://api.wunderground.com/api/",
+    "key": "b3ca2e92bff6d441",
+    "timeout" : 10000,
+    "maxRedirects": 10,
+    "followRedirect": true
+  },
+  "locations": [
+    {
+        "city": "Campbell",
+        "state": "CA"
+    },
+    {
+        "city":"Omaha",
+        "state":"NE"
+    },
+    {
+        "city":"Austin",
+        "state":"TX"
+    },
+    {
+        "city":"Timonium",
+        "state":"MD"
+    }]
+}
